@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA40A32F1C60EC2800BA908F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A32E1C60EC2800BA908F /* main.m */; };
+		FA40A3321C60EC2800BA908F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A3311C60EC2800BA908F /* AppDelegate.m */; };
+		FA40A3351C60EC2800BA908F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A3341C60EC2800BA908F /* ViewController.m */; };
+		FA40A3381C60EC2800BA908F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40A3361C60EC2800BA908F /* Main.storyboard */; };
+		FA40A33A1C60EC2800BA908F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA40A3391C60EC2800BA908F /* Assets.xcassets */; };
+		FA40A33D1C60EC2800BA908F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40A33B1C60EC2800BA908F /* LaunchScreen.storyboard */; };
+		FA40A3481C60EC2800BA908F /* TKTagView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A3471C60EC2800BA908F /* TKTagView_DemoTests.m */; };
+		FA40A3531C60EC2800BA908F /* TKTagView_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A3521C60EC2800BA908F /* TKTagView_DemoUITests.m */; };
+		FA40A3631C60EC7700BA908F /* TKTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A3621C60EC7700BA908F /* TKTagView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA40A3441C60EC2800BA908F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA40A3221C60EC2800BA908F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA40A3291C60EC2800BA908F;
+			remoteInfo = TKTagView.Demo;
+		};
+		FA40A34F1C60EC2800BA908F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA40A3221C60EC2800BA908F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA40A3291C60EC2800BA908F;
+			remoteInfo = TKTagView.Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA40A32A1C60EC2800BA908F /* TKTagView.Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKTagView.Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40A32E1C60EC2800BA908F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA40A3301C60EC2800BA908F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA40A3311C60EC2800BA908F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA40A3331C60EC2800BA908F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA40A3341C60EC2800BA908F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA40A3371C60EC2800BA908F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA40A3391C60EC2800BA908F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA40A33C1C60EC2800BA908F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA40A33E1C60EC2800BA908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40A3431C60EC2800BA908F /* TKTagView.DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTagView.DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40A3471C60EC2800BA908F /* TKTagView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTagView_DemoTests.m; sourceTree = "<group>"; };
+		FA40A3491C60EC2800BA908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40A34E1C60EC2800BA908F /* TKTagView.DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKTagView.DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40A3521C60EC2800BA908F /* TKTagView_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTagView_DemoUITests.m; sourceTree = "<group>"; };
+		FA40A3541C60EC2800BA908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40A3611C60EC7700BA908F /* TKTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTagView.h; sourceTree = "<group>"; };
+		FA40A3621C60EC7700BA908F /* TKTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTagView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA40A3271C60EC2800BA908F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A3401C60EC2800BA908F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A34B1C60EC2800BA908F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA40A3211C60EC2800BA908F = {
+			isa = PBXGroup;
+			children = (
+				FA40A32C1C60EC2800BA908F /* TKTagView.Demo */,
+				FA40A3461C60EC2800BA908F /* TKTagView.DemoTests */,
+				FA40A3511C60EC2800BA908F /* TKTagView.DemoUITests */,
+				FA40A32B1C60EC2800BA908F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA40A32B1C60EC2800BA908F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A32A1C60EC2800BA908F /* TKTagView.Demo.app */,
+				FA40A3431C60EC2800BA908F /* TKTagView.DemoTests.xctest */,
+				FA40A34E1C60EC2800BA908F /* TKTagView.DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA40A32C1C60EC2800BA908F /* TKTagView.Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A3601C60EC7700BA908F /* TKTagView */,
+				FA40A3301C60EC2800BA908F /* AppDelegate.h */,
+				FA40A3311C60EC2800BA908F /* AppDelegate.m */,
+				FA40A3331C60EC2800BA908F /* ViewController.h */,
+				FA40A3341C60EC2800BA908F /* ViewController.m */,
+				FA40A3361C60EC2800BA908F /* Main.storyboard */,
+				FA40A3391C60EC2800BA908F /* Assets.xcassets */,
+				FA40A33B1C60EC2800BA908F /* LaunchScreen.storyboard */,
+				FA40A33E1C60EC2800BA908F /* Info.plist */,
+				FA40A32D1C60EC2800BA908F /* Supporting Files */,
+			);
+			path = TKTagView.Demo;
+			sourceTree = "<group>";
+		};
+		FA40A32D1C60EC2800BA908F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A32E1C60EC2800BA908F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA40A3461C60EC2800BA908F /* TKTagView.DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A3471C60EC2800BA908F /* TKTagView_DemoTests.m */,
+				FA40A3491C60EC2800BA908F /* Info.plist */,
+			);
+			path = TKTagView.DemoTests;
+			sourceTree = "<group>";
+		};
+		FA40A3511C60EC2800BA908F /* TKTagView.DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A3521C60EC2800BA908F /* TKTagView_DemoUITests.m */,
+				FA40A3541C60EC2800BA908F /* Info.plist */,
+			);
+			path = TKTagView.DemoUITests;
+			sourceTree = "<group>";
+		};
+		FA40A3601C60EC7700BA908F /* TKTagView */ = {
+			isa = PBXGroup;
+			children = (
+				FA40A3611C60EC7700BA908F /* TKTagView.h */,
+				FA40A3621C60EC7700BA908F /* TKTagView.m */,
+			);
+			path = TKTagView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA40A3291C60EC2800BA908F /* TKTagView.Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40A3571C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.Demo" */;
+			buildPhases = (
+				FA40A3261C60EC2800BA908F /* Sources */,
+				FA40A3271C60EC2800BA908F /* Frameworks */,
+				FA40A3281C60EC2800BA908F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKTagView.Demo;
+			productName = TKTagView.Demo;
+			productReference = FA40A32A1C60EC2800BA908F /* TKTagView.Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA40A3421C60EC2800BA908F /* TKTagView.DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40A35A1C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.DemoTests" */;
+			buildPhases = (
+				FA40A33F1C60EC2800BA908F /* Sources */,
+				FA40A3401C60EC2800BA908F /* Frameworks */,
+				FA40A3411C60EC2800BA908F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA40A3451C60EC2800BA908F /* PBXTargetDependency */,
+			);
+			name = TKTagView.DemoTests;
+			productName = TKTagView.DemoTests;
+			productReference = FA40A3431C60EC2800BA908F /* TKTagView.DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA40A34D1C60EC2800BA908F /* TKTagView.DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40A35D1C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.DemoUITests" */;
+			buildPhases = (
+				FA40A34A1C60EC2800BA908F /* Sources */,
+				FA40A34B1C60EC2800BA908F /* Frameworks */,
+				FA40A34C1C60EC2800BA908F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA40A3501C60EC2800BA908F /* PBXTargetDependency */,
+			);
+			name = TKTagView.DemoUITests;
+			productName = TKTagView.DemoUITests;
+			productReference = FA40A34E1C60EC2800BA908F /* TKTagView.DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA40A3221C60EC2800BA908F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Pro;
+				TargetAttributes = {
+					FA40A3291C60EC2800BA908F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U5DZ68MJG4;
+					};
+					FA40A3421C60EC2800BA908F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U5DZ68MJG4;
+						TestTargetID = FA40A3291C60EC2800BA908F;
+					};
+					FA40A34D1C60EC2800BA908F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U5DZ68MJG4;
+						TestTargetID = FA40A3291C60EC2800BA908F;
+					};
+				};
+			};
+			buildConfigurationList = FA40A3251C60EC2800BA908F /* Build configuration list for PBXProject "TKTagView.Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA40A3211C60EC2800BA908F;
+			productRefGroup = FA40A32B1C60EC2800BA908F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA40A3291C60EC2800BA908F /* TKTagView.Demo */,
+				FA40A3421C60EC2800BA908F /* TKTagView.DemoTests */,
+				FA40A34D1C60EC2800BA908F /* TKTagView.DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA40A3281C60EC2800BA908F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40A33D1C60EC2800BA908F /* LaunchScreen.storyboard in Resources */,
+				FA40A33A1C60EC2800BA908F /* Assets.xcassets in Resources */,
+				FA40A3381C60EC2800BA908F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A3411C60EC2800BA908F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A34C1C60EC2800BA908F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA40A3261C60EC2800BA908F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40A3631C60EC7700BA908F /* TKTagView.m in Sources */,
+				FA40A3351C60EC2800BA908F /* ViewController.m in Sources */,
+				FA40A3321C60EC2800BA908F /* AppDelegate.m in Sources */,
+				FA40A32F1C60EC2800BA908F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A33F1C60EC2800BA908F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40A3481C60EC2800BA908F /* TKTagView_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40A34A1C60EC2800BA908F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40A3531C60EC2800BA908F /* TKTagView_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA40A3451C60EC2800BA908F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA40A3291C60EC2800BA908F /* TKTagView.Demo */;
+			targetProxy = FA40A3441C60EC2800BA908F /* PBXContainerItemProxy */;
+		};
+		FA40A3501C60EC2800BA908F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA40A3291C60EC2800BA908F /* TKTagView.Demo */;
+			targetProxy = FA40A34F1C60EC2800BA908F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA40A3361C60EC2800BA908F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40A3371C60EC2800BA908F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA40A33B1C60EC2800BA908F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40A33C1C60EC2800BA908F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA40A3551C60EC2800BA908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA40A3561C60EC2800BA908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA40A3581C60EC2800BA908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKTagView.Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA40A3591C60EC2800BA908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKTagView.Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA40A35B1C60EC2800BA908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKTagView.DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKTagView.Demo.app/TKTagView.Demo";
+			};
+			name = Debug;
+		};
+		FA40A35C1C60EC2800BA908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKTagView.DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKTagView.Demo.app/TKTagView.Demo";
+			};
+			name = Release;
+		};
+		FA40A35E1C60EC2800BA908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKTagView.DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKTagView.Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA40A35F1C60EC2800BA908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKTagView.DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.TKTagView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKTagView.Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA40A3251C60EC2800BA908F /* Build configuration list for PBXProject "TKTagView.Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40A3551C60EC2800BA908F /* Debug */,
+				FA40A3561C60EC2800BA908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA40A3571C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40A3581C60EC2800BA908F /* Debug */,
+				FA40A3591C60EC2800BA908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA40A35A1C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40A35B1C60EC2800BA908F /* Debug */,
+				FA40A35C1C60EC2800BA908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA40A35D1C60EC2800BA908F /* Build configuration list for PBXNativeTarget "TKTagView.DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40A35E1C60EC2800BA908F /* Debug */,
+				FA40A35F1C60EC2800BA908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA40A3221C60EC2800BA908F /* Project object */;
+}
